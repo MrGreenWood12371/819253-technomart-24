@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Никита Косарев](https://up.htmlacademy.ru/htmlcss/24/user/819253).
-* Наставник: `Неизвестно`.
+* Наставник: [Иван Казанцев](https://htmlacademy.ru/profile/ivan1kazantsev).
 
 ---
 
