@@ -2,19 +2,30 @@ html{
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
 *,
 ::before,
 ::after {
   box-sizing: border-box;
 }
+
 a{
   text-decoration: none;
 }
+
 body{
   font-family: 'PT Sans', sans-serif;
   line-height: 24px;
   font-size: 13px;
 }
+
+.upper-header{
+  background-color: #293449;
+  font-family: 'Cuprum', sans-serif;
+  line-height: 18px;
+  font-size: 17px;
+}
+
 .logo{
   display: inline-block;
   width: 220px;
@@ -26,48 +37,54 @@ body{
   padding-top: 8px;
   padding-bottom: 8px;
 }
+
 .logo:hover{
   background-color: #ca2c37;
 }
+
 .logo:active{
   background-color: #ba2732;
   opacity: 0.5;
 }
+
 .header-search{
  background-color: #293449;
  border-style: none;
  -webkit-appearance: textfield;
 }
+
 .header-search:hover,
 .user-purchase:hover{
   background-color: #212a3a;
 }
+
 .user-purchase:active{
   background-color: #161d29;
   opacity: 0.5;
 }
+
 .header-search:focus{
   background-color: #ffffff;
 }
+
 .titles{
   font-family: 'Cuprum', sans-serif;
   line-height: 30px;
   font-size: 30px;
 }
-.user-goods{
-  font-family: 'Cuprum', sans-serif;
-  line-height: 18px;
-  font-size: 17px;
-}
+
 .user-goods a{
   color: #ffffff;
 }
+
 .header-purchase{
   background-color: #63a63e;
 }
+
 .header-purchase:hover{
   background-color: #5fbb2d;
 }
+
 .header-purchase:active{
   background-color: #518534;
   opacity: 0.5;
@@ -77,11 +94,13 @@ body{
   background-color: #f3f7f8;
   font-family: 'Cuprum', sans-serif;
 }
+
 .header-title{
   line-height: 23px;
   font-size: 16px;
   color: #ef505b;
 }
+
 .contacts-information .header-phone{
   display: inline-block;
   line-height: 21px;
@@ -89,27 +108,29 @@ body{
   color: #ef505b;
   border: 3px solid #fff;
 }
+
 .contacts-information .header-address{
   line-height: 24px;
   font-size: 14px;
   color: #32425c;
 }
-.user-interface .login,
-.user-interface .logout{
+
+.user-actions{
   line-height: 21px;
   font-size: 21px;
   color: #000000;
   background-color: #fff;
 }
-.user-interface .login:hover,
-.user-interface .logout:hover{
+
+.user-actions:hover{
   color: #ee3643;
 }
-.user-interface .login:active,
-.user-interface .logout:active{
+
+.user-actions:active{
   background-color: #fff;
   color: rgba(0, 0, 0, 0.3);
 }
+
 .main-navigation{
   background-color: #32425c;
   line-height: 17px;
@@ -122,9 +143,11 @@ body{
 .top-footer{
   background-color: #32425c;
 }
+
 .bottom-footer{
   background-color: #293449;
 }
+
 .footer-contacts,
 .upper-footer-navigation a{
   color: #ffffff;
@@ -132,147 +155,178 @@ body{
   line-height: 24px;
   font-size: 18px;
 }
+
 .upper-footer-navigation a:hover{
   text-decoration: underline;
 }
+
 .upper-footer-navigation a:active{
   opacity: 0.5;
   text-decoration: none;
 }
+
 .bottom-footer-navigation a{
   font-family: 'Cuprum', sans-serif;
   line-height: 24px;
   font-size: 18px;
   color: #ffd180;
 }
+
 .bottom-footer-navigation a:hover{
   text-decoration: underline;
 }
+
 .bottom-footer-navigation a:active{
   opacity: 0.5;
   text-decoration: none;
 }
+
 .bottom-info{
   font-family: 'Cuprum', sans-serif;
   line-height: 18px;
   font-size: 16px;
   color: #ffffff;
 }
+
 .our-mail{
 color: #ffffff;
 }
+
 .our-mail a{
   color: #ffd180;
 }
+
 .our-mail a:hover{
   text-decoration: underline;
 }
+
 .our-mail a:active{
   text-decoration: none;
   color: #ee3643;
 }
+
 .footer-address{
   color: #ffffff;
 }
+
 .footer-address a{
   color: #ffd180;
 }
+
 .footer-address a:hover{
   text-decoration: underline;
 }
+
 .footer-address a:active{
   text-decoration: none;
   color: #ee3643;
 }
+
 .user-name{
-  font-family: 'Cuprum', sans-serif;
   line-height: 21px;
   font-size: 21px;
   background-color: #fff;
   color: #000000
 }
+
 .user-name:active{
   color: rgba(0, 0, 0, 0.3);
 }
+
 .user-interface-catalog a{
-  font-family: 'Cuprum', sans-serif;
   line-height: 18px;
   font-size: 16px;
   color: #32425c;
 }
+
 .user-interface-catalog a:hover{
   color: #ee3643;
 }
+
 .user-interface-catalog a:active{
   color: rgba(50, 66, 92, 0.3);
 }
+
 .section-navigation{
   line-height: 18px;
   font-size: 13px;
 }
+
 .drill-title{
   text-transform: uppercase;
   background-color: #f2f6f8
 }
+
 .manufacturer-title{
   font-family: 'PT Sans', bold;
   line-height: 30px;
   font-size: 17px;
 }
+
 .manufacturer ul{
   line-height: 20px;
   font-size: 15px;
 }
+
 .powertype{
   line-height: 20px;
   font-size: 15px;
 }
+
 .btn-show{
   line-height: 18px;
   font-size: 13px;
 }
+
 .product-name{
   font-family: 'PT Sans', bold;
   line-height: 20px;
   font-size: 18px;
 }
+
 .product-prices{
   font-family: 'PT Sans', bold;
   line-height: 18px;
   font-size: 17px;
 }
+
 .old-price{
   text-decoration: line-through;
   color: #999999;
 }
+
 .product a{
   display: none;
   font-family: 'Cuprum', sans-serif;
   line-height: 18px;
   font-size: 14px;
 }
+
 .product .basket{
   color: #fff;
 }
+
 .product .bookmarks{
   color: #32425c;
 }
+
 .main-navigation a:hover{
   background-color: #293449;
 }
+
 .main-navigation a:active{
   background-color: #1d2739;
   color: rgba(255, 255, 255, 0.5);
 }
+
 .user-info-popup{
   display: none;
 }
+
 .popup-map{
   display: none;
 }
+
 .catalog-popup{
   display: none;
-}
-.upper-header{
-  background-color: #293449;
 }
