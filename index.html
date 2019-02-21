@@ -14,42 +14,43 @@
     <div class="upper-header">
       <div class="container header-container">
         <a class="logo">
-          <img  class="logo-img" src="img/logo/logo-technomart.svg" alt="Логотип техномарта">
+          <img class="logo-img" src="img/logo/logo-technomart.svg" alt="Логотип техномарта">
         </a>
         <div class="search">
           <form action="#">
-            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true">
-              <path fill="#ffffff" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z" />
-            </svg>
-            <input type="search" name="search" class="header-search" placeholder="Поиск: ">
+            <input class="header-search" id="search" type="search" name="search" placeholder="Поиск: ">
+            <label class="search-icon" for="search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true">
+                <path fill="currentColor" d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z" />
+              </svg>
+            </label>
           </form>
         </div>
-        <ul class="user-goods">
-          <li class="user-goods__item">
-            <a href="#" class="user-purchase">Закладки: 0</a>
+        <ul class="user-goods ulres">
+          <li>
+            <a href="#" class="user-item user-item-bookmark">Закладки: 0</a>
           </li>
-          <li class="user-goods__item">
-            <a href="#" class="user-purchase">Корзина: 0</a>
+          <li>
+            <a href="#" class="user-item user-item-cart">Корзина: 0</a>
           </li>
-          <li class="user-goods__item">
-            <a href="#" class="header-purchase">Оформить заказ</a>
+          <li>
+            <a href="#" class="user-button">Оформить заказ</a>
           </li>
         </ul>
       </div>
     </div>
-    <div class="bottom-header">
-      <h1 class="header-title">Интернет-магазин Строительных материалов и&nbsp;инструментов для ремонта</h1>
+    <div class="bottom-header container">
+      <h1 class="header-title">Интернет-магазин cтроительных материалов и&nbsp;инструментов для ремонта</h1>
       <div class="contacts-information">
-        <a href="tel:+78125550555" class="header-phone">+7(812)555-05-55</a>
+        <a href="tel:+78125550555" class="header-phone header-phone-icon">+7 (812) 555-05-55</a>
         <p class="header-address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
       <ul class="user-interface">
-        <li class="user-interface__item"><a href="#" class="user-actions"> Войти</a></li>
-        <li class="user-interface__item"><a href="#" class="user-actions">Регистрация</a></li>
+        <li class="user-interface-item"><a href="#" class="user-actions"> Войти</a></li>
+        <li class="user-interface-item"><a href="#" class="user-actions">Регистрация</a></li>
       </ul>
       <nav class="main-navigation">
-        <div class="main-navigation-container">
-        <ul>
+        <ul class="ulres">
           <li><a href="#">Главная</a></li>
           <li><a href="#">Компания</a></li>
           <li><a href="catalog.html">Каталог</a></li>
@@ -58,11 +59,10 @@
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
-        </nav>
       </nav>
     </div>
   </header>
-  <main class="main-content">
+  <main class="main-content container">
     <section class="about-us">
       <div class="information-container">
         <h2 class="titles">Компания "Техномаркт"</h2>
@@ -88,8 +88,8 @@
     </section>
   </main>
   <footer class="main-footer">
-      <div class="top-footer">
-          <div class="top-footer-container">
+    <div class="top-footer container">
+      <div class="top-footer-container">
         <a class="logo bottom-logo">
           <img src="img/logo/logo-technomart.svg" alt="Логотип техномарта">
         </a>
@@ -99,14 +99,14 @@
         </div>
       </div>
       <nav class="footer-navigation">
-        <ul class="upper-footer-navigation">
+        <ul class="upper-footer-navigation ulres">
           <li><a href="#">Компания</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="catalog.html">Каталог</a></li>
           <li><a href="#">Доставка</a></li>
           <li><a href="#">Контакты</a></li>
         </ul>
-        <ul class="bottom-footer-navigation">
+        <ul class="bottom-footer-navigation ulres">
           <li><a href="#">Материалы</a></li>
           <li><a href="#">Техника</a></li>
           <li><a href="#">Инструмент</a></li>
@@ -115,20 +115,22 @@
       </nav>
     </div>
     <div class="bottom-footer">
-      <p class="bottom-info">© 2010–2019 Компания «Техномарт» Все права защищены</p>
-      <ul class="our-social">
-        <li><a href="vk" aria-label="vk"></a></li>
-        <li><a href="facebook" aria-label="fb"></a></li>
-        <li><a href="instagramm" aria-label="insta"></a></li>
-      </ul>
-      <p class="our-mail">
-        Обратная связь:
-        <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-      </p>
-      <address class="footer-address">
-        Разработано -
-        <a href="htmlacademy.ru">htmlacademy.ru</a>
-      </address>
+      <div class="container">
+        <p class="bottom-info">© 2010–2019 Компания «Техномарт» Все права защищены</p>
+        <ul class="our-social ulres">
+          <li><a href="vk" aria-label="vk"></a></li>
+          <li><a href="facebook" aria-label="fb"></a></li>
+          <li><a href="instagramm" aria-label="insta"></a></li>
+        </ul>
+        <p class="our-mail">
+          Обратная связь:
+          <a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </p>
+        <address class="footer-address">
+          Разработано -
+          <a href="htmlacademy.ru">htmlacademy.ru</a>
+        </address>
+      </div>
     </div>
   </footer>
   <div class="user-info-popup">
@@ -146,5 +148,4 @@
     <button class="popup-close" aria-label="close"></button>
   </div>
 </body>
-
 </html>
