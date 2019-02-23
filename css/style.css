@@ -207,24 +207,12 @@ body {
   text-align: center;
 }
 
-.user-interface-item {
-  padding-right: 10px;
-}
-
-.user-actions {
-  padding: 15px 25px;
-  line-height: 21px;
-  font-size: 21px;
-  color: #000;
-  background-color: #fff;
-}
-
 .header-title {
   font-family: 'Cuprum', sans-serif;
   font-style: italic;
   font-weight: normal;
   width: 200px;
-  margin: 4px 0 0 45px;
+  margin: 4px 0 0 46px;
   line-height: 23px;
   font-size: 16px;
   color: #ef505b;
@@ -239,7 +227,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 17px;
+    left: 13px;
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
@@ -255,20 +243,54 @@ body {
   position: relative;
   box-sizing: border-box;
   display: inline-block;
-  margin: 3px 20px 6px 0;
-  padding: 10px 52px 10px 70px;
+  margin-right: 19px;
+  padding: 11px 50px 9px 72px;
   line-height: 21px;
   font-size: 21px;
   font-style: normal;
   color: #ef505b;
-  outline: 2px solid #fff;
+  border: 2px solid #fff;
 }
 
 .contacts-information .header-address {
-  margin: 0 0 0 5px;
+  margin: 5px 0 0 9px;
   line-height: 24px;
   font-size: 14px;
   color: #32425c;
+}
+
+.user-actions {
+  line-height: 21px;
+  font-size: 21px;
+  color: #000;
+  background-color: #fff;
+}
+
+.user-login{
+  position: relative;
+ padding: 12px 26px 11px 48px;
+ margin-right: 10px;
+}
+
+.user-login::before{
+  content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    width: 20px;
+    height: 17px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.user-icon-login::before{
+  background-image: url('../img/icons/icon-login.svg');
+  background-size: 20px 17px;
+}
+
+.user-registration{
+  padding: 12px 22px 11px 24px;
 }
 
 .user-actions:hover {
@@ -314,16 +336,14 @@ body {
 }
 
 .about-us .titles {
+  margin-top: 28px;
   text-transform: uppercase;
+  margin-bottom: 26px;
 }
 
 .information-container {
   width: 520px;
   margin: 0;
-}
-
-.information-container h2 {
-  margin-bottom: 28px;
 }
 
 .slogan {
@@ -334,18 +354,31 @@ body {
 .our-opportunities {
   width: 400px;
   margin-top: 0;
-  margin-bottom: 22px;
+  margin-bottom: 21px;
 }
 
 .information-container li {
+  position: relative;
+  list-style: none;
   padding-bottom: 20px;
 }
 
-.information-container_list {
+.information-container-list {
   font-family: 'Cuprum', sans-serif;
   line-height: 20px;
   font-size: 18px;
   margin-bottom: 24px;
+  padding-left: 36px;
+}
+
+.list-icon::before{
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 2px;
+  background: #FB565A;
+  left: -36px;
+  top: 9px;
 }
 
 .btn-info {
@@ -387,7 +420,7 @@ body {
   color: #fff;
   text-align: center;
   width: 300px;
-  padding: 10px 0;
+  padding: 10px 0 10px 4px;;
   line-height: 18px;
   font-size: 14px;
 }
@@ -404,17 +437,23 @@ body {
 }
 
 .bottom-footer {
+  font-family: 'Cuprum', sans-serif;
+  line-height: 18px;
+  font-size: 16px;
   background-color: #293449;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
-.top-footer-container {
-  width: 330px;
+.bottom-footer-container{
+  display: flex;
+  justify-content: space-between;
 }
 
 .bottom-logo {
   width: 220px;
   height: 60px;
-  margin-bottom: 35px;
+  margin-bottom: 36px;
   padding: 20px 0;
 }
 
@@ -422,6 +461,7 @@ body {
   display: flex;
   flex-grow: 1;
   flex-direction: column;
+  margin-top: 38px;
   outline: 2px solid aqua;
 }
 
@@ -429,9 +469,11 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin: 0 0 0 23px;
 }
 
 .footer-contacts {
+  margin-left: 3px;
   margin-bottom: 55px;
 }
 
@@ -456,6 +498,7 @@ body {
   display: flex;
   justify-content: space-between;
   list-style: none;
+  margin: 33px 0 0 46px;
 }
 
 .bottom-footer-navigation a {
@@ -475,6 +518,8 @@ body {
 }
 
 .bottom-info {
+  width: 230px;
+  margin: 0;
   font-family: 'Cuprum', sans-serif;
   line-height: 18px;
   font-size: 16px;
@@ -482,6 +527,8 @@ body {
 }
 
 .our-mail {
+  margin: 0 0 0 305px;
+  width: 135px;
   color: #fff;
 }
 
@@ -499,6 +546,9 @@ body {
 }
 
 .footer-address {
+  margin: 0 12px 0 0;
+  font-style: normal;
+  width: 100px;
   color: #fff;
 }
 
