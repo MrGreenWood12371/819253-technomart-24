@@ -526,6 +526,53 @@ body {
   color: #fff;
 }
 
+.social-container{
+  position: relative;
+}
+
+
+.our-socials-vk::before{
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: 107px;
+  width: 42px;
+  height: 42px;
+  background: url('../img/icons/icon-vk.svg') no-repeat center;
+  background-color: #212a3a;
+  border-radius: 50%;
+}
+
+.our-socials-fb::before{
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: 153px;
+  width: 42px;
+  height: 42px;
+  background: url('../img/icons/icon-fb.svg') no-repeat center;
+  background-color: #212a3a;
+  border-radius: 50%;
+}
+
+.our-socials-inst::before{
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: 196px;
+  width: 42px;
+  height: 42px;
+  background: url('../img/icons/icon-insta.svg') no-repeat center;
+  background-color: #212a3a;
+  border-radius: 50%;
+}
+
+.our-socials-vk:hover::before,
+.our-socials-fb:hover::before,
+.our-socials-inst:hover::before{
+  background-color: #ee3643;
+}
+
 .our-mail {
   margin: 0 0 0 305px;
   width: 135px;
