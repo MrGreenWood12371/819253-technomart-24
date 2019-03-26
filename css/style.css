@@ -617,10 +617,7 @@ body{
 
 .benefits-item{
   position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
+  display: none;
 }
 
 .benefits-slider-button{
@@ -1539,10 +1536,7 @@ body{
 
 .check-input{
   position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
+  display: none;
 }
 
 .checkbox{
@@ -1599,10 +1593,7 @@ body{
 
 .power-item{
   position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
+  display: none;
 }
 
 .radio-button{
