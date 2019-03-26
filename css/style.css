@@ -680,7 +680,7 @@ body{
   display: -ms-flexbox;
   display: flex;
   background-color: #f9f5f0;
-  padding: 25px 24px 26px 28px;
+  padding: 25px 24px 28px 28px;
 }
 
 .popular-goods-title{
@@ -691,7 +691,7 @@ body{
 
 .popular-goods-btn{
   width: 253px;
-  margin-left: 371px;
+  margin-left: 370px;
   padding-bottom: 9px;
 }
 
@@ -716,7 +716,7 @@ body{
 
 .popular-manufacturers-btn{
   width: 253px;
-  margin-left: 268px;
+  margin-left: 267px;
   padding-bottom: 9px;
 }
 
@@ -1713,6 +1713,7 @@ body{
   font-size: 0;
   padding: 0;
   width: 700px;
+  margin-bottom: 40px;
 }
 
 .catalog-item{
@@ -1851,7 +1852,7 @@ body{
 .catalog-item .discount{
   min-height: 20px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   color: #999;
   text-decoration: line-through;
 }
@@ -1861,9 +1862,9 @@ body{
   box-sizing: content-box;
   position: relative;
   width: 80px;
-  margin: 10px auto;
+  margin: 5px auto;
   margin-bottom: 20px;
-  padding: 9px 30px;
+  padding: 10px 30px;
   font-size: 17px;
   color: white;
   background: #ee3643;
@@ -1885,12 +1886,16 @@ body{
   margin: 20px 16px 20px 0;
 }
 
+.catalog-item-preview:nth-child(3){
+  margin: 20px 16px 20px 0;
+}
+
 .catalog-item-preview:last-child{
   margin-right: 0;
 }
 
 .page-navigation{
-  margin-left: 20px;
+
   margin-bottom: 60px;
 }
 
