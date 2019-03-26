@@ -201,7 +201,7 @@ body{
 .user-item{
   position: relative;
   display: inline-block;
-  padding: 12px 33px 12px 44px;
+  padding: 12px 33px 12px 43px;
   -webkit-transition: background-color 300ms;
   transition: background-color 300ms;
 }
@@ -868,10 +868,7 @@ body{
 
 .services-item{
   position: absolute;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
+  display: none;
 }
 
 .services-slide-title{
