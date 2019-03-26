@@ -1393,7 +1393,7 @@ body{
   -ms-flex-direction: column;
   flex-direction: column;
   width: 220px;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .filter{
@@ -1634,7 +1634,6 @@ body{
 }
 
 .navbar-form{
-  margin-left: -20px;
   margin-bottom: 20px;
 }
 
@@ -1716,10 +1715,6 @@ body{
   width: 700px;
 }
 
-.catalog-items .row{
-  margin-left: -20px;
-}
-
 .catalog-item{
   position: relative;
   display: inline-block;
@@ -1731,6 +1726,18 @@ body{
   font-weight: bold;
   text-align: center;
   border: 1px solid #ccc;
+}
+
+.catalog-item:nth-child(3){
+  margin-right: 0;
+}
+
+.catalog-item:nth-child(6){
+  margin-right: 0;
+}
+
+.catalog-item:nth-child(9){
+  margin-right: 0;
 }
 
 .catalog-item:hover{
