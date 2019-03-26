@@ -1393,6 +1393,7 @@ body{
   -ms-flex-direction: column;
   flex-direction: column;
   width: 220px;
+  margin-right: 40px;
 }
 
 .filter{
@@ -1633,7 +1634,7 @@ body{
 }
 
 .navbar-form{
-  margin-left: 20px;
+  margin-left: -20px;
   margin-bottom: 20px;
 }
 
@@ -1713,7 +1714,6 @@ body{
   font-size: 0;
   padding: 0;
   width: 700px;
-  margin: 20px 0 35px 40px;
 }
 
 .catalog-items .row{
