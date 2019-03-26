@@ -1626,11 +1626,15 @@ body{
   line-height: 18px;
   font-size: 13px;
   text-transform: uppercase;
-  margin-left: 20px;
-  margin-bottom: 20px;
+
   width: 700px;
   height: 38px;
   background-color: #f7f3ec;
+}
+
+.navbar-form{
+  margin-left: 20px;
+  margin-bottom: 20px;
 }
 
 .navbar-items{
