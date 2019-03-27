@@ -1995,6 +1995,7 @@ body{
   appearance: none;
   border: 0;
   outline: none;
+  background-color: inherit;
 }
 
 .popup-close-button::before,
@@ -2082,7 +2083,7 @@ body{
 }
 
 .catalog-popup{
-  display: none;
+
   position: fixed;
   top: 10%;
   left: 29%;
